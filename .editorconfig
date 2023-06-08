@@ -1,10 +1,35 @@
-- 👋 Hi, I’m @Ghost777FG
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# http://editorconfig.org
 
-<!---
-Ghost777FG/Ghost777FG is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+root = true
+
+[*]
+
+# 编码
+
+charset = utf-8
+
+# 缩进风格
+
+indent_style = space
+
+# 缩进宽度
+
+indent_size = 2
+
+# 换行符
+
+end_of_line = lf
+
+# 文件以空白行结尾
+
+insert_final_newline = true
+
+# 去除行首任意空白字符
+
+trim_trailing_whitespace = true
+
+[*.md]
+
+insert_final_newline = false
+
+trim_trailing_whitespace = false
